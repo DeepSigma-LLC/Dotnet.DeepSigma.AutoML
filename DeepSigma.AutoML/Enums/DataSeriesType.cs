@@ -1,6 +1,9 @@
 ﻿
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the type of data series.
+    /// </summary>
     public enum DataSeriesType
     {
         /// <summary>
