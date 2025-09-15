@@ -14,5 +14,6 @@ namespace DeepSigma.AutoML.Enums
         /// LongMemoryModel refers to models that leverage long-term memory, allowing them to capture and utilize patterns and dependencies over extended periods of time for improved forecasting and analysis.
         /// </summary>
         LongMemoryModel,
+        LongShortTermMemoryModel,
     }
 }
