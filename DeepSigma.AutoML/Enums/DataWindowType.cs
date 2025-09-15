@@ -3,7 +3,7 @@ namespace DeepSigma.AutoML.Enums
 {
     public enum DataWindowType
     {
-        StaticWindowSize,
+        StaticRollingWindowSize,
         DynamicWindowSize,
         ExpandingWindowSize,
     }

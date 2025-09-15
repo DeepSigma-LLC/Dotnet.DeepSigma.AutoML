@@ -16,8 +16,4 @@
     <FileVersion>$(Version)</FileVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
