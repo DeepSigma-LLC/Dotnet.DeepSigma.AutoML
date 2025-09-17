@@ -1,6 +1,9 @@
 ﻿
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the method used for imputing missing data in a dataset.
+    /// </summary>
     public enum MissingDataImputationType
     {
         /// <summary>

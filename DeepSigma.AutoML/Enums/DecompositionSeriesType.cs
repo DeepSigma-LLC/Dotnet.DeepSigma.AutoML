@@ -1,6 +1,9 @@
 ﻿
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the type of component in a time series decomposition.
+    /// </summary>
     public enum DecompositionSeriesType
     {
         /// <summary>

@@ -1,6 +1,9 @@
 ﻿
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the type of data windowing technique used for time series analysis or machine learning models.
+    /// </summary>
     public enum DataWindowType
     {
         /// <summary>

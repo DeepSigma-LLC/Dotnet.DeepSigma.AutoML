@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the type of statistical significance test to be used.
+    /// </summary>
     public enum StatisticialSignifcanceTestType
     {
         /// <summary>

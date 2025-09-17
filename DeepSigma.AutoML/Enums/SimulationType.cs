@@ -18,5 +18,15 @@ namespace DeepSigma.AutoML.Enums
         /// Physics-based simulations use mathematical models based on physical laws to simulate real-world phenomena.
         /// </summary>
         PhysicsBased,
+        /// <summary>
+        /// Statistical simulations utilize statistical methods to analyze and predict the behavior of complex systems based on data.
+        /// </summary>
+        Statistical,
+        /// <summary>
+        /// Machine learning simulations employ algorithms that learn from data to make predictions or decisions without being explicitly programmed.
+        /// Good when prior knowledge is limited, and patterns need to be discovered from data or when the system is too complex for traditional modeling approaches.
+        /// Also, good when privacy concerns prevent the use of actual data.
+        /// </summary>
+        DeepLearning,
     }
 }

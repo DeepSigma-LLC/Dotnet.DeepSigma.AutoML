@@ -2,6 +2,9 @@
 
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the type of self-correlation in a time series.
+    /// </summary>
     public enum SelfCorrelationType
     {
         /// <summary>
