@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DeepSigma.AutoML.Enums
 {
+    /// <summary>
+    /// Specifies the specific stationarity requirements for a time series.
+    /// </summary>
     public enum StationarityRequirementType
     {
         /// <summary>

@@ -12,7 +12,7 @@ namespace DeepSigma.AutoML.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public ModelMemoryLengthType MemoryLengthType { get; set; }
-        public StationarityType RequiredStationarityType { get; set; }
+        public SeriesStatisticalPropertyType RequiredStationarityType { get; set; }
         public ModelLearningType ModelLearningType { get; set; }
         public ModelMemoryType ModelMemoryType { get; set; }
     }
