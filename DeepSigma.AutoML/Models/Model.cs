@@ -15,5 +15,6 @@ namespace DeepSigma.AutoML.Models
         public SeriesStatisticalPropertyType RequiredStationarityType { get; set; }
         public ModelLearningType ModelLearningType { get; set; }
         public ModelMemoryType ModelMemoryType { get; set; }
+        public bool MultitaskLearning { get; set; }
     }
 }

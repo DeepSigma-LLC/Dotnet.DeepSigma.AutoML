@@ -11,6 +11,10 @@ namespace DeepSigma.AutoML.Enums
         /// </summary>
         RollingWindow,
         /// <summary>
+        /// TiledWindow indicates a window that divides the data into non-overlapping segments or tiles, allowing for the analysis of distinct periods or intervals without overlap between them.
+        /// </summary>
+        TiledWindow,
+        /// <summary>
         /// DynamicWindow indicates a window that can change its size based on certain criteria or conditions, allowing for more flexibility in capturing relevant data patterns over time.
         /// </summary>
         DynamicWindow,
