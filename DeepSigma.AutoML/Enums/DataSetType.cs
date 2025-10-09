@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace DeepSigma.AutoML.Enums
+namespace DeepSigma.AutoML.Enums;
+
+public enum DataSetType
 {
-    public enum DataSetType
-    {
-        Training,
-        Validation,
-        Testing
-    }
+    Training,
+    Validation,
+    Testing
 }

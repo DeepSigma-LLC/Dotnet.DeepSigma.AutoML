@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+namespace DeepSigma.AutoML.Enums;
 
-namespace DeepSigma.AutoML.Enums
+/// <summary>
+/// Specifies the types of issues that can occur in time series data, which may impact the accuracy and reliability of forecasting models.
+/// </summary>
+public enum TimeSeriesIssueType
 {
-    public enum TimeSeriesIssueType
-    {
-        Lookahead,
-        StructualChange
-    }
+    Lookahead,
+    StructualChange
 }
