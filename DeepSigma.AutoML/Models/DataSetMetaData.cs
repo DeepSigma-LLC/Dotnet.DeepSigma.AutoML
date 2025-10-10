@@ -2,10 +2,10 @@
 
 namespace DeepSigma.AutoML.Models;
 
-public class DataDimensionMetaData<T> where T : struct
+public class DataSetMetaData<T> where T : struct
 {
     public string Name { get; set; }
-    public string Description { get; set; }
+    public string Description { get; set; } = string.Empty;
     public Type DataType { get; set; }
     public T MinValue { get; set; }
     public T MaxValue { get; set; }
