@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies the bias-variance tradeoff status in a machine learning model.

@@ -1,10 +1,9 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.TimeSeries;
 
 /// <summary>
 /// Specifies the type of component in a time series decomposition.
 /// </summary>
-public enum DecompositionSeriesType
+public enum TimeSeriesDecompositionSourceType
 {
     /// <summary>
     /// Trend component represents the long-term progression or direction of the time series data.

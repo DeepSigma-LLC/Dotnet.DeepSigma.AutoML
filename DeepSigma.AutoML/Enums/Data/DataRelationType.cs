@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies the type of relationship between data variables, indicating how they are related or associated with each other.

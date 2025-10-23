@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DeepSigma.AutoML.Enums;
+namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies the type of function based on its monotonicity properties.

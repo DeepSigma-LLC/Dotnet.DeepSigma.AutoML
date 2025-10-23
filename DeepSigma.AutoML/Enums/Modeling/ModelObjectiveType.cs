@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies the primary objective or task that a machine learning model is designed to accomplish.

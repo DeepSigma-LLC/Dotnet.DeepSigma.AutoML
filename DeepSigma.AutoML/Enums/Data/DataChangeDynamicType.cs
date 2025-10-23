@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies how the data value may change over time.

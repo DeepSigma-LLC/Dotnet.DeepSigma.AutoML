@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Statistical;
 
 /// <summary>
 /// Specifies the outcome of a statistical hypothesis test, indicating whether the null hypothesis can be rejected or not.

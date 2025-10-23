@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Statistical;
 
 /// <summary>
 /// Specifies the type of statistical significance test to be used.

@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums
+﻿namespace DeepSigma.AutoML.Enums.Data
 {
     /// <summary>
     /// Specifies the variability type of data, indicating whether the data is invariant or variant in nature.

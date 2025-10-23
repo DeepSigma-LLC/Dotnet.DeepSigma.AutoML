@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies the type of data sampling technique used to adjust the distribution of a dataset, either by increasing (upsampling) or decreasing (downsampling) the number of samples in certain classes or categories.

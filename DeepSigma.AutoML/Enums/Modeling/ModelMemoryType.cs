@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies the memory type of a model, indicating whether it relies on learned parameters or external data for making predictions.

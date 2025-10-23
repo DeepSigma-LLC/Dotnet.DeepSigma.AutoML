@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies the type of data series.
@@ -13,5 +12,5 @@ public enum DataSeriesType
     /// <summary>
     /// Cross-sectional data refers to data collected at a single point in time or over a short period, capturing a snapshot of multiple subjects or entities.
     /// </summary>
-    CrossSectional,
+    CrossSectional,    
 }

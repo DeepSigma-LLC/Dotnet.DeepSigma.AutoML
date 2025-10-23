@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies the memory length type of a model, indicating whether it utilizes short-term or long-term memory for processing and learning from data.

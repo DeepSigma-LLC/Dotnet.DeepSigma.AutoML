@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Statistical;
 
 /// <summary>
 /// Specifies whether a statistical distribution is continuous or discrete.

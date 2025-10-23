@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies the result type of a model fit evaluation, indicating whether the model is overfitting or underfitting the data.

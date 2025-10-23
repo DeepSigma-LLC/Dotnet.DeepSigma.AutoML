@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// Specifies various techniques used to prevent overfitting in machine learning models, helping to improve their generalization and performance on unseen data.

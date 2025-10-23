@@ -1,5 +1,4 @@
-﻿
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Statistical;
 
 /// <summary>
 /// Specifies the type of evidence supporting a causal relationship between a cause and an effect.
