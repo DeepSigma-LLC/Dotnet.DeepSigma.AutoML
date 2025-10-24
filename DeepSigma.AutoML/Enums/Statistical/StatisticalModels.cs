@@ -2,9 +2,9 @@
 
 public enum StatisticalModels
 {
-    ARModel,
-    MAModel,
-    ARMA,
-    ARIMA,
+    Autoregressive,
+    MovingAverage,
+    AutoregressiveMovingAverage,
+    AutoregressiveIntegratedMovingAverage,
     GARCH
 }

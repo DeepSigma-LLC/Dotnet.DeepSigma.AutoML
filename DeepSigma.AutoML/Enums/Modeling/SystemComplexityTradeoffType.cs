@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Modeling;
 
 /// <summary>
 /// The common saying is: "Complexity either exists in your code or in your user interface". 

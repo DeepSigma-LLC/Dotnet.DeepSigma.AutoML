@@ -55,6 +55,10 @@ public enum DeepLearningLayerType
     /// </summary>
     AveragePooling,
     /// <summary>
+    /// A layer that adds padding to the input data.
+    /// </summary>
+    Padding,
+    /// <summary>
     /// A layer that generates embeddings, transforming categorical data into dense vector representations.
     /// </summary>
     Embedding,
@@ -65,5 +69,13 @@ public enum DeepLearningLayerType
     /// <summary>
     /// A layer that utilizes transformer architecture, commonly used in natural language processing tasks.
     /// </summary>
-    Transformer
+    Transformer,
+    /// <summary>
+    /// A layer that shuffles the input data to improve model generalization.
+    /// </summary>
+    Shuffle,
+    /// <summary>
+    /// A layer specialized for computer vision tasks.
+    /// </summary>
+    Vision,
 }

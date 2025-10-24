@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.Data;
 
 /// <summary>
 /// Specifies the statistical property type of a time series.

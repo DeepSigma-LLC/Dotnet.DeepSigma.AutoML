@@ -1,4 +1,4 @@
-﻿using DeepSigma.AutoML.Enums;
+﻿using DeepSigma.AutoML.Enums.Data;
 using DeepSigma.AutoML.Enums.Modeling;
 
 
