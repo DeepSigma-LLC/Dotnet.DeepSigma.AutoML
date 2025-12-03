@@ -14,6 +14,15 @@
     <RepositoryUrl>https://github.com/DeepSigma-LLC/Dotnet.DeepSigma.AutoML</RepositoryUrl>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
+    <PackageIcon>Assets\DeepSigma.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Assets\DeepSigma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
