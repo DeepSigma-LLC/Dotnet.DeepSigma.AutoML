@@ -56,3 +56,31 @@ public enum CasualEvidence
     /// </summary>
     SimilarEffectsInRelatedButNotIdenticalStudies
 }
+
+/// <summary>
+/// Extension methods for the <see cref="CasualEvidence"/> enum.
+/// </summary>
+
+public static class CasualEvidenceExtensions
+{
+    /// <summary>
+    /// Gets the type of evidence for the specified casual evidence.
+    /// </summary>
+    /// <param name="evidence"></param>
+    /// <returns></returns>
+    /// <exception cref="ArgumentOutOfRangeException"></exception>
+    public static EvidenceType GetEvidenceType(this CasualEvidence evidence)
+    {
+        return evidence switch
+        {
+            CasualEvidence.SizeOfEffectCannotBeExplainedByConfounding => EvidenceType.Direct,
+            CasualEvidence.TemporalAndOrSpatialProximity => EvidenceType.Direct,
+            CasualEvidence.ResponsivenessAndReversibilityOfEffect => EvidenceType.Direct,
+            CasualEvidence.PlausibleMechanismOfAction => EvidenceType.Mechanistic,
+            CasualEvidence.EffectFitsWithOtherKnowledge => EvidenceType.Parallel,
+            CasualEvidence.ReplicationOfFindings => EvidenceType.Parallel,
+            CasualEvidence.SimilarEffectsInRelatedButNotIdenticalStudies => EvidenceType.Parallel,
+            _ => throw new ArgumentOutOfRangeException(nameof(evidence), evidence, null)
+        };
+    }
+}

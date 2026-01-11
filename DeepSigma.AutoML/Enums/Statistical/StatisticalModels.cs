@@ -50,4 +50,9 @@ public enum StatisticalModels
     /// VECM captures both short-term dynamics and long-term relationships among the variables.
     /// </summary>
     CointegratedVectorAutoregression,
+    /// <summary>
+    /// Hierarchical Models are statistical models that incorporate multiple levels of analysis or grouping structures, allowing for the modeling of complex relationships and dependencies within nested data.
+    /// These models are particularly useful when data is organized at different levels. They enable the analysis of both individual-level and group-level effects simultaneously.
+    /// </summary>
+    HierarchicalModels
 }

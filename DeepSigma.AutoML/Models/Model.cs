@@ -12,6 +12,5 @@ public class Model
     public SeriesStatisticalPropertyType RequiredStationarityType { get; set; }
     public ModelLearningType ModelLearningType { get; set; }
     public ModelMemoryType ModelMemoryType { get; set; }
-    public 
     public bool MultitaskLearning { get; set; }
 }
