@@ -6,6 +6,13 @@
 public enum ModelMemoryLengthType
 {
     /// <summary>
+    /// MemorylessModel refers to models that do not utilize any form of memory, relying solely on the current input data for making predictions or decisions without considering past information.
+    /// </summary>
+    /// <remarks>
+    /// An example of a MemorylessModel is a hidden Markov model, which makes predictions based only on the current state without retaining any history of previous states.
+    /// </remarks>
+    MemorylessModel,
+    /// <summary>
     /// ShortMemoryModel refers to models that primarily utilize short-term memory, focusing on recent data points and patterns for making predictions or decisions.
     /// </summary>
     ShortMemoryModel,
