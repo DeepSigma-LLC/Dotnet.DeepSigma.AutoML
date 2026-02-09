@@ -25,6 +25,11 @@ public enum Awareness
     /// Data is temporally aware, meaning it takes into account the time dimension and how data may change over time, allowing for more accurate predictions and insights in dynamic environments.
     /// Dynamic time series analysis and forecasting models can help achieve temporal awareness by modeling the temporal dependencies and patterns in the data, improving performance in tasks like stock price prediction, weather forecasting, and demand forecasting.
     /// </summary>
+    /// <remarks>
+    /// Temporal awareness may incorporate the temporal dimension or it may be temporally indifferent. Indifference is not the same as being unaware if it is an intentional design decision. 
+    /// For instance, dynamic time warping (DTW) warps (alters) the temporal dimension of a two times series to align their behavior in a way that reflects their underlying patterns and relationships, rather than their specific time points.
+    /// In this case, the model is temporally aware in the sense that it considers the temporal dynamics of the data, but it is also temporally indifferent in the sense that it does not rely on specific time points or intervals to make predictions or insights.
+    /// </remarks>
     TemporallyAware,
     /// <summary>
     /// Data is contextually aware, meaning it considers the broader context and environment in which the data exists, allowing for more nuanced and accurate analysis and decision-making.
