@@ -23,14 +23,6 @@ public enum DeepLearningLayerType
     /// </summary>
     Recurrent,
     /// <summary>
-    /// A layer that uses Long Short-Term Memory (LSTM) units for processing sequential data, capable of learning long-term dependencies.
-    /// </summary>
-    LSTM,
-    /// <summary>
-    /// A layer that uses Gated Recurrent Units (GRUs) for processing sequential data, providing a simpler alternative to LSTM layers.
-    /// </summary>
-    GRU,
-    /// <summary>
     /// A layer that randomly sets a fraction of input units to zero during training to prevent overfitting.
     /// </summary>
     Dropout,
