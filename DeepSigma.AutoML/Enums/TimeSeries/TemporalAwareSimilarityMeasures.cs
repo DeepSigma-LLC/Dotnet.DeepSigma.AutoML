@@ -3,9 +3,9 @@
 namespace DeepSigma.AutoML.Enums.TimeSeries;
 
 /// <summary>
-/// Specifies the distance measures that can be used to compare and analyze time series data techniques that capture the temporal dynamics and patterns in the data.
+/// Specifies the similiarty (aka distance) measures that can be used to compare and analyze time series data techniques that capture the temporal dynamics and patterns in the data.
 /// </summary>
-public enum TemporalAwareDistanceMeasures
+public enum TemporalAwareSimilarityMeasures
 {
     /// <summary>
     /// Dynamic Time Warping (DTW) is a distance measure that compares two time series by finding the optimal alignment between them, allowing for non-linear warping of the time axis to account for differences in speed and timing.
