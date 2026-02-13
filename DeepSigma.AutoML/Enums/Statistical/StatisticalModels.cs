@@ -23,6 +23,9 @@ public enum StatisticalModels
     AutoregressiveIntegratedMovingAverage,
     /// <summary>
     /// Seasonal Autoregressive Integrated Moving Average model extends the Autoregressive Integrated Moving Average (ARIMA) model to account for seasonal patterns in time series data by incorporating seasonal differencing and seasonal autoregressive and moving average components.
+    /// The SARIMA model shows more flexibility in how the amplitude of seasonality affects data over time compared to Dynamic Harmonic Regression, which models seasonality using fixed harmonic terms.
+    /// Furthermore, SARIMA does a good job of caputuring seasonality for short seasonal patterns, but it can struggle to capture seasonality when the seasonal patterns are not consistent, when there are multiple seasonal periods, or when the seasons are long (think annual seasonaility). 
+    /// In such cases, Dynamic Harmonic Regression can be a more effective approach for modeling complex and varying seasonal patterns in time series data.
     /// </summary>
     SeasonalAutoregressiveIntegratedMovingAverage,
     /// <summary>
@@ -54,5 +57,16 @@ public enum StatisticalModels
     /// Hierarchical Models are statistical models that incorporate multiple levels of analysis or grouping structures, allowing for the modeling of complex relationships and dependencies within nested data.
     /// These models are particularly useful when data is organized at different levels. They enable the analysis of both individual-level and group-level effects simultaneously.
     /// </summary>
-    HierarchicalModels
+    HierarchicalModels,
+    /// <summary>
+    /// Dynamic Harmonic Regression model is used for analyzing and forecasting time series data with complex seasonal patterns by incorporating harmonic (sine and cosine) terms to capture the seasonal effects, allowing for more flexible modeling of seasonality compared to traditional seasonal models.
+    /// This method uses Fourier series to represent the seasonal component of the time series, enabling it to capture a wide range of seasonal patterns, including those that are not strictly periodic or that change over time.
+    /// SARIMA models typically use simple seasonal differencing to capture seasonality, while Dynamic Harmonic Regression can model more complex and varying seasonal patterns by including multiple harmonic terms, making it suitable for time series data with non-standard or changing seasonal behaviors.
+    /// Although very unregular seasonal patterns can be difficult to capture with any model, Dynamic Harmonic Regression can often provide a more robust approach for forecasting time series data with intricate seasonal structures, especially when there are multiple seasonal periods, or when the seasons are long (think annual seasonaility).
+    /// </summary>
+    DynamicHarmonicRegression,
+    /// <summary>
+    /// Empirical Bayes model is a statistical approach that combines prior information with observed data to estimate parameters and make predictions, often used in situations where there is limited data or when the data is noisy, allowing for more robust inference and improved predictive performance by borrowing strength from related data or prior knowledge.
+    /// </summary>
+    EmpiricalBayes,
 }

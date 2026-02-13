@@ -23,6 +23,11 @@ public enum DeepLearningLayerType
     /// </summary>
     Recurrent,
     /// <summary>
+    /// A layer that skips connections in a recurrent neural network, allowing the model to capture long-term dependencies without suffering from the vanishing gradient problem.
+    /// This layer is often used in architectures such as Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) to improve the flow of information across time steps in sequential data processing tasks.
+    /// </summary>
+    SkipRecurrent,
+    /// <summary>
     /// A layer that randomly sets a fraction of input units to zero during training to prevent overfitting.
     /// </summary>
     Dropout,
