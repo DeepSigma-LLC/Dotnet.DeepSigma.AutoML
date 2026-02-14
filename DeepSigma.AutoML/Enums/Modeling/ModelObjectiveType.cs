@@ -34,4 +34,8 @@ public enum ModelObjectiveType
     /// ObjectDetection involves identifying and locating objects within images or videos.
     /// </summary>
     ObjectDetection,
+    /// <summary>
+    /// SemanticSearch involves retrieving relevant information from a large dataset based on the meaning and context of the query rather than just keyword matching.
+    /// </summary>
+    SemanticSearch,
 }
