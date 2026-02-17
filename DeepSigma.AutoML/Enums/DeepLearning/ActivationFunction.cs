@@ -35,6 +35,12 @@ public enum ActivationFunction
     /// </summary>
     Swish,
     /// <summary>
+    /// GLU (Gated Linear Unit) is an activation function that combines the properties of linear and non-linear functions.
+    /// It is defined as f(x) = x * sigmoid(g(x)), where g(x) is a gating function that controls the flow of information through the activation.
+    /// GLU can help to improve the expressiveness of the model and is often used in transformer-based architectures for natural language processing tasks.
+    /// </summary>
+    GLU,
+    /// <summary>
     /// GELU (Gaussian Error Linear Unit) activation function is defined as f(x) = 0.5 * x * (1 + tanh(sqrt(2/pi) * (x + 0.044715 * x^3))).
     /// It combines properties of ReLU and sigmoid functions, providing smooth activation and better gradient flow.
     /// It should be used in scenarios where improved performance and gradient flow are desired, especially in transformer models.
@@ -45,5 +51,10 @@ public enum ActivationFunction
     /// It is defined as f(x_i) = exp(x_i) / sum(exp(x_j)) for each class i.
     /// It should be used in the output layer of neural networks for multi-class classification tasks.
     /// </summary>
-    Softmax
+    Softmax,
+    /// <summary>
+    /// SwiGLU (Swish Gated Linear Unit) is an activation function that combines the properties of Swish and GLU (Gated Linear Unit).
+    /// It is defined as f(x) = x * sigmoid(beta * x) * (1 - sigmoid(beta * x)).
+    /// </summary>
+    SwiGLU
 }

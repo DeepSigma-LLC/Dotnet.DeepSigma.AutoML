@@ -38,4 +38,8 @@ public enum ModelObjectiveType
     /// SemanticSearch involves retrieving relevant information from a large dataset based on the meaning and context of the query rather than just keyword matching.
     /// </summary>
     SemanticSearch,
+    /// <summary>
+    /// TopicModeling involves discovering abstract topics or themes within a collection of documents or text data, often using techniques like Latent Dirichlet Allocation (LDA) or Non-negative Matrix Factorization (NMF).
+    /// </summary>
+    TopicModeling,
 }

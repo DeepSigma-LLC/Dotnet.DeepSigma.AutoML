@@ -4,5 +4,6 @@ public enum MachineLearningModelType
 {
     SupervisedLearning,
     UnsupervisedLearning,
-    ReinforcementLearning
+    ReinforcementLearning,
+    SelfSupervisedLearning,
 }
