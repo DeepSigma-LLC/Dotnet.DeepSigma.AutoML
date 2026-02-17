@@ -19,11 +19,15 @@ public enum TokenDecoding
     BeamSearch,
     /// <summary>
     /// TopKSampling is a token decoding method that selects the next token from the top K most probable tokens at each step of the decoding process, where K is a predefined parameter.
+    /// For example, if K is set to 5, the method will sample a token from the top 5 most probable tokens at each step, while the remaining tokens with lower probabilities will be discarded.
     /// This method introduces randomness into the decoding process, allowing for more diverse and creative output while still maintaining a focus on the most likely tokens.
     /// </summary>
     TopKSampling,
     /// <summary>
     /// TopPSampling, also known as nucleus sampling, is a token decoding method that selects the next token from the smallest set of tokens whose cumulative probability exceeds a predefined threshold P.
+    /// For example, if P is set to 0.1, the method will sample a token from the smallest set of tokens whose cumulative probability exceeds 0.1.
+    /// The remaining tokens with lower probabilities will be discarded. 
+    /// If P is set to 1.0, the method will consider all tokens, effectively becoming equivalent to greedy decoding.
     /// This method allows for more dynamic and adaptive token selection, as it considers the overall distribution of token probabilities rather than just the top K tokens, leading to more diverse and contextually relevant output while still maintaining a focus on the most likely tokens.
     /// This method is particularly effective in generating creative and coherent text, as it can adapt to the specific context of the generated text and avoid selecting low-probability tokens that may lead to incoherent or irrelevant output.
     /// </summary>
