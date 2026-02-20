@@ -1,6 +1,4 @@
-﻿
-
-namespace DeepSigma.AutoML.Enums;
+﻿namespace DeepSigma.AutoML.Enums.LLM;
 
 /// <summary>
 /// The PromptingTechniques enumeration defines various techniques used in prompting, which are strategies or methods employed to elicit specific responses or behaviors from a model or system based on the way prompts are structured and presented.

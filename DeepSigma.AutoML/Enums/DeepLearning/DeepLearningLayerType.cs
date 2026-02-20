@@ -72,7 +72,8 @@ public enum DeepLearningLayerType
     /// </summary>
     Shuffle,
     /// <summary>
-    /// A layer specialized for computer vision tasks.
+    /// A layer that implements the Vision Transformer architecture, which applies transformer models to image data for tasks such as image classification and object detection.
+    /// Also, referred to as ViT, this layer divides an image into patches and processes 9encodes) them using transformer blocks, enabling the model to capture long-range dependencies and achieve state-of-the-art performance in computer vision tasks.
     /// </summary>
-    Vision,
+    VisionTransformer,
 }

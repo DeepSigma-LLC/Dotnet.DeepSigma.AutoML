@@ -10,5 +10,5 @@ public class MachineLearningModel : Model
     /// <summary>
     /// Gets or sets the type of learning for the machine learning model.
     /// </summary>
-    public MachineLearningModelType LearningType {get;set;}
+    public LearningApproach LearningType {get;set;}
 }
