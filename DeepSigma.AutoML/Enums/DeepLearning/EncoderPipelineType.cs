@@ -2,12 +2,12 @@
 namespace DeepSigma.AutoML.Enums.DeepLearning;
 
 /// <summary>
-/// Specifies the type of encoder architecture used in a deep learning model, which can include autoencoders, encoder-only architectures, and decoder-only architectures that are designed to learn compact and informative representations of input data for various applications such as dimensionality reduction, feature extraction, and generative modeling.
+/// EncoderPipelineType is an enumeration that defines different types of encoder-decoder pipeline architectures used in deep learning models, particularly in the context of natural language processing (NLP) and machine learning tasks, where the choice of pipeline architecture can significantly impact the model's ability to learn and represent complex relationships in the input data, ultimately affecting its performance on various tasks such as classification, regression, and generative modeling.
 /// </summary>
-public enum EncoderArchitecture
+public enum EncoderPipelineType
 {
     /// <summary>
-    /// An autoencoder is a type of neural network architecture that consists of an encoder and a decoder. 
+    /// EncoderDecoder architecture, also known as autoencoder architecture, is a type of neural network architecture that consists of an encoder and a decoder. 
     /// The encoder compresses the input data into a lower-dimensional representation (latent space), while the decoder reconstructs the original data from this compressed representation.
     /// Autoencoders are commonly used for tasks such as dimensionality reduction, anomaly detection, and unsupervised learning, as they can learn efficient representations of the input data without requiring labeled examples.
     /// </summary>
@@ -17,7 +17,7 @@ public enum EncoderArchitecture
     /// Additionally, a sequence-to-sequence autoencoder is a type of autoencoder architecture that is designed to process sequential data, such as time series or natural language, where the encoder and decoder are typically implemented using recurrent neural networks (RNNs) or transformer architectures to capture temporal dependencies and patterns in the data.
     /// The encoder architecture of an autoencoder can be designed to learn a compact and informative representation of the input data, which can be used for various downstream tasks such as classification, regression, or generative modeling, depending on the specific application and requirements of the problem at hand.
     /// </remarks>
-    AutoEncoder,
+    EncoderDecoder,
     /// <summary>
     /// A transformer encoder is a type of neural network architecture that is based on the transformer model, which was originally designed for natural language processing tasks.
     /// Encoder-only architectures are commonly used for tasks such as feature extraction, language modeling, text classification, and other natural language processing tasks, where the goal is to learn a compact and informative representation of the input data that can be used for downstream tasks such as classification or regression.

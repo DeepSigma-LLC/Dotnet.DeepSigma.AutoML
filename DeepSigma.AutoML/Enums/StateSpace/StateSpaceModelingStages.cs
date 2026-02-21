@@ -4,7 +4,7 @@ namespace DeepSigma.AutoML.Enums.StateSpace;
 /// <summary>
 /// Specifies the different stages in state space modeling.
 /// </summary>
-public enum StateSpaceStages
+public enum StateSpaceModelingStages
 {
     /// <summary>
     /// Filtering involves estimating the current state of a system based on past and present observations, typically using algorithms like the Kalman filter.
