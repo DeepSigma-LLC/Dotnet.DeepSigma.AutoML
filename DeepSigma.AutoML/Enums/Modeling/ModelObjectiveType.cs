@@ -40,6 +40,7 @@ public enum ModelObjectiveType
     SemanticSearch,
     /// <summary>
     /// TopicModeling involves discovering abstract topics or themes within a collection of documents or text data, often using techniques like Latent Dirichlet Allocation (LDA) or Non-negative Matrix Factorization (NMF).
+    /// The goal is to identify latent topics that can help summarize and understand the underlying themes in the text data, which can be useful for tasks such as document classification, information retrieval, and natural language processing applications.
     /// </summary>
     TopicModeling,
 }
