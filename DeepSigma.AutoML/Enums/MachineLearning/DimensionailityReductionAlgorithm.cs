@@ -14,4 +14,14 @@ public enum DimensionailityReductionAlgorithm
     /// Uniform Manifold Approximation and Projection (UMAP) is a non-linear dimensionality reduction technique that preserves both local and global structure in the data. UMAP is particularly effective for visualizing high-dimensional data in lower dimensions (e.g., 2D or 3D) while maintaining the relationships between data points, making it a popular choice for tasks like clustering and visualization of complex datasets.
     /// </summary>
     UniformManifoldApproximationAndProjection,
+    /// <summary>
+    /// Represents the t-distributed Stochastic Neighbor Embedding (t-SNE) algorithm for dimensionality reduction and
+    /// visualization of high-dimensional data.
+    /// </summary>
+    /// <remarks>
+    /// t-SNE is commonly used to project data into two or three dimensions for visualization while preserving local structure. 
+    /// This class provides methods and properties to configure and execute the t-SNE algorithm. 
+    /// It is suitable for applications such as exploratory data analysis, clustering, and pattern recognition.
+    /// </remarks>
+    TSNE,
 }
