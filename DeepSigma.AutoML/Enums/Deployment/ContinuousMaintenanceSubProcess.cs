@@ -1,9 +1,9 @@
 ﻿namespace DeepSigma.AutoML.Enums.Deployment;
 
 /// <summary>
-/// Specifies the types of deployment processes in software development, which include Continuous Integration, Continuous Deployment, Continuous Testing, and Continuous Monitoring, each playing a crucial role in ensuring efficient and reliable software delivery and maintenance.
+/// ContinuousMaintenanceSubProcess specifies the various subprocesses involved in continuous maintenance, including Continuous Integration, Continuous Delivery, Continuous Testing, and Continuous Monitoring, which are essential for ensuring the ongoing stability, reliability, and performance of software applications throughout their lifecycle by enabling automated processes for code integration, deployment, testing, and monitoring in production environments.
 /// </summary>
-public enum DeploymentProcessType
+public enum ContinuousMaintenanceSubProcess
 {
     /// <summary>
     /// Continuous Integration refers to the practice of automatically integrating code changes from multiple contributors into a shared repository, allowing for early detection of integration issues and ensuring that the codebase remains in a deployable state.
