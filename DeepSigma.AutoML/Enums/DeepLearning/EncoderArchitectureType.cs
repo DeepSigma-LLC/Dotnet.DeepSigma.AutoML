@@ -21,5 +21,11 @@ public enum EncoderArchitectureType
     /// The performance of Bi-Encoders are usually not as good as cross-encoders, but they are much more computationally efficient and can scale better to larger datasets and longer input sequences, as they process each input independently, which can lead to reduced memory usage and faster training times compared to cross-encoders that require processing all inputs together.
     /// </summary>
     BiEncoder,
-    
+    /// <summary>
+    /// Variational AutoEncoders (VAEs) are a type of generative model that learn to represent data in a lower-dimensional latent space, allowing them to generate new data samples by sampling from this latent space.
+    /// They differ from traditional autoencoders in that they introduce a probabilistic framework, where the encoder learns to map input data to a distribution over the latent space rather than a single point, and the decoder learns to reconstruct the original data from samples drawn from this distribution, making VAEs particularly effective for tasks such as generative modeling, anomaly detection, and unsupervised learning, as they can learn efficient representations of the input data while also allowing for the generation of new data samples that closely resemble the training data.
+    /// VAE are susceptible to issues such as posterior collapse, where the model learns to ignore the latent space and generates data that is similar to the training data without effectively utilizing the latent representations, which can limit their ability to generate diverse and high-quality samples.
+    /// However, with proper regularization techniques and architectural choices, VAEs can be powerful tools for generative modeling and representation learning in various applications across different domains.
+    /// </summary>
+    VariationalAutoEncoders
 }

@@ -18,6 +18,7 @@ public enum FeatureExtractionMethod
     Automated,
     /// <summary>
     /// Hybrid feature extraction combines both manual and automated approaches to leverage the strengths of both methods, allowing for a more comprehensive and effective feature set that can improve model performance while also maintaining interpretability and relevance to the specific domain and problem being addressed.
+    /// This approach can often lead to better results by allowing domain experts to guide the feature extraction process while also utilizing automated techniques to discover additional features that may enhance model performance, making it a popular choice in many machine learning applications where both interpretability and performance are important considerations.
     /// </summary>
     Hybrid
 }
