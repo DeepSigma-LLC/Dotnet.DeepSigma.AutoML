@@ -191,10 +191,6 @@ A few naming details in the current API are worth preserving for compatibility w
 
 If you later introduce breaking cleanup changes, consider documenting them clearly in release notes.
 
-## Testing
-
-I did not find a separate test project or test directory in the repository structure shown on GitHub. If tests are planned, a future addition such as `DeepSigma.AutoML.Tests` would make the package easier to validate and adopt.
-
 ## Suggested next improvements
 
 Here are the highest-impact improvements for the repository over time:
@@ -207,19 +203,7 @@ Here are the highest-impact improvements for the repository over time:
 
 ## License
 
-No license file is visible in the current repository snapshot. If you intend others to use or contribute to the package, adding a license file would remove ambiguity.
-
-## Contributing
-
-Contributions are easiest when the repository documents:
-
-- supported .NET SDK version
-- branching and PR expectations
-- testing requirements
-- release/versioning process
-
-A `CONTRIBUTING.md` file would be a helpful next step.
+MIT
 
 ---
 
-Built from the current public repository structure and source files in `DeepSigma-LLC/Dotnet.DeepSigma.AutoML`.
